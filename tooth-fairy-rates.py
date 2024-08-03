@@ -10,8 +10,9 @@ def render(tf_rate):
     )
 
 
+db = os.getenv("DATABASE", "tf_rates.db")
 app, rt, tf_rates, TF_Rate = fast_app(
-    "tf_rates.db",
+    db=db,
     live=True,
     render=render,
     id=int,
