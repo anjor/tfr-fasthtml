@@ -1,1 +1,1 @@
-# tooth-fairy-rates
+# Tooth Fairy Rates
